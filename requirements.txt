@@ -1,0 +1,13 @@
+# Core AutoGen
+pyautogen[ollama]
+
+# Simple web framework
+streamlit
+streamlit-chat
+
+# Basic tools
+requests
+duckdu
+
+# Environment
+python-dotenv
