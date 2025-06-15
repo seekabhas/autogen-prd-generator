@@ -2,7 +2,7 @@
 
 Generate comprehensive Product Requirements Documents through AI conversation. Uses multi-agent orchestration with local LLMs.
 
-![Workflow](assets/workflow-diagram)
+![Workflow](assets/workflow-diagram.png)
 
 ## Quick Start
 
