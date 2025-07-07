@@ -18,7 +18,7 @@ load_dotenv()
 
 OLLAMA_VL_CONFIG = {
     "config_list": [{
-        "model": os.getenv("OLLAMA_MODEL", "qwen2.5vl:3b"),
+        "model": os.getenv("OLLAMA_MODEL"),
         "base_url": os.getenv("OLLAMA_HOST", "http://localhost:11434") + "/v1",
         "api_key": "ollama",  # Required but not used
         "extra_body": {
@@ -27,3 +27,4 @@ OLLAMA_VL_CONFIG = {
     }],
     "cache_seed": None,  # No caching for testing
 }
+print(f"Using Ollama model: {os.getenv('OLLAMA_MODEL')}")
