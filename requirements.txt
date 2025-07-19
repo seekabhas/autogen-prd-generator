@@ -1,5 +1,5 @@
 # Core AutoGen
-pyautogen[ollama]
+ag2[ollama]
 
 # Simple web framework
 streamlit
